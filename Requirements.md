@@ -42,8 +42,11 @@
 
 
 ### USER
+ ##Register-user
+
+ 
 GET (http://13.48.46.250:5000/api/user/me)
-Get my account info
+##Get my account info
 **Parameters**
 
 | Name        | Type    | In    | Required | Description                                                                                                                                          |
@@ -51,4 +54,10 @@ Get my account info
 | `category`  | string  | query | No       | Specifies the category of products you want to be returned. It can be one of: meat-seafood, fresh-produce, candy, bread-bakery, dairy, eggs, coffee. |
 | `results`   | integer | query | No       | Specifies the number of results you want. Must be number between 1 and 20. By default, only 20 products will be displayed.                           |
 | `available` | boolean | query | No       | Specifies the availability of the products. By default, all products will be displayed.                                                              |
+
+**Status code**
+| Status code | Description |
+| ----------- | ----------- |
+| 200 | to get my own account info |
+| 403 | Bad request |
 
