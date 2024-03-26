@@ -42,7 +42,7 @@
 
 
 ### USER
- ##Register-user
+ ### Register-user
 
  
 GET (http://13.48.46.250:5000/api/user/me)
