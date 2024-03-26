@@ -46,7 +46,7 @@
 
  
 GET (http://13.48.46.250:5000/api/user/me)
-##Get my account info
+## Get my account info
 **Parameters**
 
 | Name        | Type    | In    | Required | Description                                                                                                                                          |
